@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         
     <title>Christopher Reagle</title>
-    <meta name="description" content="I am a Software Engineer with experience at a remote first SaaS company. I love to learn, and figure out problems. It is what has driven me to be an engineer. I excel in working with teams and other departments to identify problems, and come to a solution that makes everyone happy and feel like they achieved their goal." />
+    <meta name="description" content="Software Engineer with 5+ years of experience building scalable, resilient backend systems in high-throughput environments. Currently contributing to McDonald's global ordering platform, driving performance, reliability, and clean code practices. Passionate about mentoring, architecting scalable systems, and using technology to elevate customer experience in a fast-paced, agile environment." />
   
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
@@ -17,7 +17,7 @@
     <header class="masthead">
       
       <div><h1>Christopher Reagle</h1> <h2>Software Engineer</h2></div>
-      <article><p>I am a Software Engineer with experience at a remote first SaaS company. I love to learn, and figure out problems. It is what has driven me to be an engineer. I excel in working with teams and other departments to identify problems, and come to a solution that makes everyone happy and feel like they achieved their goal.</p></article>
+      <article><p>Software Engineer with 5+ years of experience building scalable, resilient backend systems in high-throughput environments. Currently contributing to McDonald's global ordering platform, driving performance, reliability, and clean code practices. Passionate about mentoring, architecting scalable systems, and using technology to elevate customer experience in a fast-paced, agile environment.</p></article>
       <ul class="icon-list">
         
           <li>
@@ -52,6 +52,32 @@
           
               <article>
                 <header>
+                  <h4><a href="https://corporate.mcdonalds.com/">McDonald's</a></h4>
+                  <div class="meta"></div>
+                </header>
+                <div class="timeline">
+                  
+                      <div>
+                        <div>
+                          <h5>Software Engineer II</h5>
+                          <div class="meta">
+                            <div><time datetime="2024-11-12">Nov 2024</time> – Present</div>
+                            
+                          </div>
+                        </div>
+                        <p>Currently a member of the FryKids squad, responsible for the backend systems that power ordering across McDonald's digital platforms. This includes managing the full lifecycle of an order — from initial placement through to fulfillment — ensuring accuracy, reliability, and performance at scale.</p>
+                        
+                          <ul>
+                            <li><p>Supported Performance testing environment, proactively identifying bottlenecks and implementing optimizations that improved reliability</p></li><li><p>Designed and implemented scalable, modular testing repositories with standardized mocks and folder structures, significantly improving test consistency and enabling faster, and independent testing</p></li><li><p>Advocated for clean code and test purity, driving adoption of maintainable, well-isolated unit and integration tests across the team to reduce technical debt and improve code quality</p></li><li><p>Engineered a new interface for restaurant data, abstracting legacy and future business logic into extensible classes, for supporting feature flagging and reducing code duplication</p></li><li><p>Led the architectural planning and migration to a managed Kafka implementation, improving scalability and maintainability while aligning with global platform standards</p></li><li><p>Mentored junior engineers by fostering a culture of discovery and ownership, while ensuring delivery of sprint goals and adherence to best practices</p></li><li><p>Conducted comprehensive code reviews, providing actionable feedback and fostering a team-wide commitment to engineering best practices, clean architecture, and continuous improvement</p></li><li><p>Created and maintained scripts for existing and newly onboarded engineers to stand up a local testing environment in under 2 minutes</p></li><li><p>Redesigned and expanded onboarding documentation, enabling new hires to ramp up significantly faster by providing clear guidance, environment setup steps, and project context</p></li>
+                          </ul>
+                        
+                      </div>
+                    
+                </div>
+              </article>
+            
+              <article>
+                <header>
                   <h4><a href="https://loyalhealth.com">Loyal Health</a></h4>
                   <div class="meta"></div>
                 </header>
@@ -65,7 +91,7 @@
                             
                           </div>
                         </div>
-                        <p>Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required. The product was built to handle 1,000 or more messages a second through messaging protocol, with averages of 77,446 messages per hour in peak times and API Requests upwards of 500 requests per second.</p>
+                        <p>Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required.</p>
                         
                           <ul>
                             <li><p>Created a service utilizing Chat GPT and Agents to provide a chat service to patients using scraped data from a hospital system after a RAG lookup</p></li><li><p>Worked directly with internal customer service team to reduce the time they spent supporting customers, building services to allow bulk importing, custom data migrations. Saved hundreds of man hours for each feature</p></li><li><p>Lead initiative for redeveloping dialog system to allow for quicker setup and onboarding of new employees, 50% decrease in ramp up time for new hires by decreasing complexity. Contained a full user validation system containing 50+ validation rules to ensure that the system was being set up correctly</p></li><li><p>Integrated with Third Party API's to perform actions such as query patient information, and collate symptoms into a diagnosis, examples such as Epic, Cerner, Infermedica</p></li><li><p>Created models using a feedforward neural network and local entity library to predict user intent, utilized BERT as our model</p></li><li><p>Created and Supported a Live Chat service which utilized Signal R for websocket management to provide P2P and bot communication</p></li><li><p>Integrated with GBM to provide bot integration into google listings</p></li><li><p>Managed multiple service environment communicating through internal API's on kubernetes, utilizing the pod scaling to be able to react to changes in demand and decreasing downtime by having hot replicas</p></li><li><p>Built a service to consume Kafka messages and pull data for Health Risk Assessment forms from a common form service</p></li><li><p>Maintained a python based service that was using tensorflow to act as a worker service training requested custom intent models from a queue</p></li><li><p>Utilized worker patterns to queue and complete work async, such as informational logging and cleaning up sockets</p></li><li><p>Monitored and Optimized slow SQL Queries using azure sql server and execution plans to improve our response time from chat bot, reports, and data dashboards</p></li><li><p>Utilized Redis as an internal cache layer to reduce strain on database and improve speed of retrieval, create distributed caache, and backplane for signal r</p></li><li><p>Covered business logic with testing to provide full coverage with unit tests using XUnit, and integration tests where needed, all tests were required to run during build pipeline to prevent against unintended bugs</p></li><li><p>Used Checkly to run SLA test suites using playwright to ensure we were meeting uptime requirements, and first alert to any issues that would impact SLA agreements</p></li><li><p>Created a NPM package using rollup to share UI components between multiple projects</p></li><li><p>Created and Maintained Azure DevOps pipelines utilizing YAML configurations based on shared templates</p></li><li><p>Built internal application for performing database migrations during CI/CD Releases utilizing on DBUP</p></li><li><p>Used Helm Charts to template deployments, this allowed for standardization and time saving when building out configurations</p></li><li><p>Created versioned docker images pushed into a container repository to be ran in multiple environments</p></li><li><p>Worked on an agile team to create plans and execute in an iterative process</p></li>
@@ -190,7 +216,7 @@
                 <h4>Backend Development</h4>
                 
                   <ul class="tag-list">
-                    <li>C#</li><li>Python</li><li>.Net</li><li>Redis</li><li>SQL</li><li>Chat GPT</li><li>NLP</li><li>LLM</li>
+                    <li>C#</li><li>Python</li><li>.Net</li><li>Redis</li><li>SQL</li><li>Chat GPT</li><li>NLP</li><li>LLM</li><li>DynamoDB</li>
                   </ul>
                 
               </div>
@@ -205,10 +231,19 @@
               </div>
             
               <div>
-                <h4>DevOps</h4>
+                <h4>Cloud & Infrastructure</h4>
                 
                   <ul class="tag-list">
-                    <li>Kubernetes</li><li>CI/CD Pipelines</li><li>Helm</li><li>Azure</li><li>GitHub</li>
+                    <li>Azure</li><li>AWS</li><li>Kubernetes</li><li>Helm</li><li>Docker</li><li>CI/CD</li><li>Helm</li><li>Kafka</li>
+                  </ul>
+                
+              </div>
+            
+              <div>
+                <h4>Testing & QA</h4>
+                
+                  <ul class="tag-list">
+                    <li>XUnit</li><li>Playwright</li><li>Checkly</li><li>Mocking</li><li>Integration Tests</li><li>Unit Tests</li>
                   </ul>
                 
               </div>

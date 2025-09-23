@@ -1,28 +1,49 @@
 {
-    "basics": {
-      "name": "Christopher Reagle",
-      "label": "Software Engineer",
-      "image": "",
-      "email": "chris@chrisreagle.com",
-      "phone": "(724) 730-3844",
-      "summary": "I am a Software Engineer with experience at a remote first SaaS company. I love to learn, and figure out problems. It is what has driven me to be an engineer. I excel in working with teams and other departments to identify problems, and come to a solution that makes everyone happy and feel like they achieved their goal.",
-      "location": {
-        "city": "Pittsburgh",
-        "countryCode": "US",
-        "region": "Pennsylvania"
-      },
-      "profiles": [{
+  "basics": {
+    "name": "Christopher Reagle",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "chris@chrisreagle.com",
+    "phone": "(724) 730-3844",
+    "summary": "Software Engineer with 5+ years of experience building scalable, resilient backend systems in high-throughput environments. Currently contributing to McDonald's global ordering platform, driving performance, reliability, and clean code practices. Passionate about mentoring, architecting scalable systems, and using technology to elevate customer experience in a fast-paced, agile environment.",
+    "location": {
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "region": "Pennsylvania"
+    },
+    "profiles": [
+      {
         "network": "LinkedIn",
         "url": "https://www.linkedin.com/in/creagle"
-      }]
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "McDonald's",
+      "position": "Software Engineer II",
+      "url": "https://corporate.mcdonalds.com/",
+      "startDate": "2024-11-12",
+      "summary": "Currently a member of the FryKids squad, responsible for the backend systems that power ordering across McDonald's digital platforms. This includes managing the full lifecycle of an order — from initial placement through to fulfillment — ensuring accuracy, reliability, and performance at scale.",
+      "highlights": [
+        "Supported Performance testing environment, proactively identifying bottlenecks and implementing optimizations that improved reliability",
+        "Designed and implemented scalable, modular testing repositories with standardized mocks and folder structures, significantly improving test consistency and enabling faster, and independent testing",
+        "Advocated for clean code and test purity, driving adoption of maintainable, well-isolated unit and integration tests across the team to reduce technical debt and improve code quality",
+        "Engineered a new interface for restaurant data, abstracting legacy and future business logic into extensible classes, for supporting feature flagging and reducing code duplication",
+        "Led the architectural planning and migration to a managed Kafka implementation, improving scalability and maintainability while aligning with global platform standards",
+        "Mentored junior engineers by fostering a culture of discovery and ownership, while ensuring delivery of sprint goals and adherence to best practices",
+        "Conducted comprehensive code reviews, providing actionable feedback and fostering a team-wide commitment to engineering best practices, clean architecture, and continuous improvement",
+        "Created and maintained scripts for existing and newly onboarded engineers to stand up a local testing environment in under 2 minutes",
+        "Redesigned and expanded onboarding documentation, enabling new hires to ramp up significantly faster by providing clear guidance, environment setup steps, and project context"
+      ]
     },
-    "work": [{
+    {
       "name": "Loyal Health",
       "position": "Software Engineer & Senior Software Engineer (April 2024)",
       "url": "https://loyalhealth.com",
       "startDate": "2021-05-01",
       "endDate": "2024-09-03",
-      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required. The product was built to handle 1,000 or more messages a second through messaging protocol, with averages of 77,446 messages per hour in peak times and API Requests upwards of 500 requests per second.",
+      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required.",
       "highlights": [
         "Created a service utilizing Chat GPT and Agents to provide a chat service to patients using scraped data from a hospital system after a RAG lookup",
         "Worked directly with internal customer service team to reduce the time they spent supporting customers, building services to allow bulk importing, custom data migrations. Saved hundreds of man hours for each feature",
@@ -38,7 +59,7 @@
         "Monitored and Optimized slow SQL Queries using azure sql server and execution plans to improve our response time from chat bot, reports, and data dashboards",
         "Utilized Redis as an internal cache layer to reduce strain on database and improve speed of retrieval, create distributed caache, and backplane for signal r",
         "Covered business logic with testing to provide full coverage with unit tests using XUnit, and integration tests where needed, all tests were required to run during build pipeline to prevent against unintended bugs",
-        "Used Checkly to run SLA test suites using playwright to ensure we were meeting uptime requirements, and first alert to any issues that would impact SLA agreements", 
+        "Used Checkly to run SLA test suites using playwright to ensure we were meeting uptime requirements, and first alert to any issues that would impact SLA agreements",
         "Created a NPM package using rollup to share UI components between multiple projects",
         "Created and Maintained Azure DevOps pipelines utilizing YAML configurations based on shared templates",
         "Built internal application for performing database migrations during CI/CD Releases utilizing on DBUP",
@@ -48,44 +69,48 @@
       ]
     },
     {
-        "name": "Sierra Experts",
-        "position": "Software Engineer",
-        "url": "https://sierraexperts.com",
-        "startDate": "2019-10-01",
-        "endDate": "2021-05-01",
-        "summary": "Provided expertise for many different types of companies and products.",
-        "highlights": [
-            "Designed and Created an ERP system for client, worked individually with client to create specs and gather information while building out a system to support their day to day operations",
-            "Created a ETL process to transfer data from several large database, combine the data and remap the relationships, set the new database up as a distributed database using merge replication between locations",
-            "Supported an internal backup system for running as a service on windows server machines",
-            "Provided support for existing applications for customers"
-        ]
-      },
-      {
-        "name": "Flowline",
-        "position": "System Administrator",
-        "startDate": "2018-11-01",
-        "endDate": "2019-10-01"
-      },
-      {
-        "name": "Custom Artificial Limb & Brace, Inc",
-        "position": "Prosthetist & Orthotist",
-        "startDate": "2013-08-01",
-        "endDate": "2017-09-01"
-      }],
-    "education": [{
+      "name": "Sierra Experts",
+      "position": "Software Engineer",
+      "url": "https://sierraexperts.com",
+      "startDate": "2019-10-01",
+      "endDate": "2021-05-01",
+      "summary": "Provided expertise for many different types of companies and products.",
+      "highlights": [
+        "Designed and Created an ERP system for client, worked individually with client to create specs and gather information while building out a system to support their day to day operations",
+        "Created a ETL process to transfer data from several large database, combine the data and remap the relationships, set the new database up as a distributed database using merge replication between locations",
+        "Supported an internal backup system for running as a service on windows server machines",
+        "Provided support for existing applications for customers"
+      ]
+    },
+    {
+      "name": "Flowline",
+      "position": "System Administrator",
+      "startDate": "2018-11-01",
+      "endDate": "2019-10-01"
+    },
+    {
+      "name": "Custom Artificial Limb & Brace, Inc",
+      "position": "Prosthetist & Orthotist",
+      "startDate": "2013-08-01",
+      "endDate": "2017-09-01"
+    }
+  ],
+  "education": [
+    {
       "institution": "Northwestern University",
       "url": "https://www.northwestern.edu/",
       "area": "Orthotics and Prosthetics",
       "studyType": "Certificate"
     },
     {
-        "institution": "University of Pittsburgh",
-        "url": "https://pitt.edu/",
-        "area": "Business Management and Economics",
-        "studyType": "Bachelor of Science"
-      }],
-    "skills": [{
+      "institution": "University of Pittsburgh",
+      "url": "https://pitt.edu/",
+      "area": "Business Management and Economics",
+      "studyType": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    {
       "name": "Backend Development",
       "keywords": [
         "C#",
@@ -95,7 +120,8 @@
         "SQL",
         "Chat GPT",
         "NLP",
-        "LLM"
+        "LLM",
+        "DynamoDB"
       ]
     },
     {
@@ -108,16 +134,31 @@
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Cloud & Infrastructure",
       "keywords": [
-        "Kubernetes",
-        "CI/CD Pipelines",
-        "Helm",
         "Azure",
-        "GitHub"
+        "AWS",
+        "Kubernetes",
+        "Helm",
+        "Docker",
+        "CI/CD",
+        "Helm",
+        "Kafka"
       ]
-    }],
-    "meta":{
-      "theme": "jsonresume-theme-even"
+    },
+    {
+      "name": "Testing & QA",
+      "keywords": [
+        "XUnit",
+        "Playwright",
+        "Checkly",
+        "Mocking",
+        "Integration Tests",
+        "Unit Tests"
+      ]
     }
+  ],
+  "meta": {
+    "theme": "jsonresume-theme-even"
   }
+}
