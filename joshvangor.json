@@ -1,0 +1,94 @@
+{
+  "basics": {
+    "name": "Joshua Vangor",
+    "label": "Cybersecurity Professional | Infrastructure & Compliance Leader | CompTIA Security+ Certified",
+    "email": "joshua.vangor@gmail.com",
+    "phone": "(440) 804-6181",
+    "location": {
+      "city": "Wellsboro",
+      "region": "PA",
+      "country": "USA"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joshua-vangor-290/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/JoshVangor"
+      }
+    ]
+  },
+  "summary": "Highly motivated Cybersecurity Professional leveraging Director-level experience in IT infrastructure, HIPAA compliance, and enterprise management to transition into a dedicated security role (e.g., Security Analyst, GRC Specialist). Proven leader in securing $150,000 in grants, driving network overhauls across five sites, and utilizing CompTIA Security+ and recent boot camp training for hands-on technical skills. Open to specialist and entry-level security positions where foundational technical aptitude and infrastructure expertise are valued.",
+  "skills": [
+    {
+      "name": "Cybersecurity Tools",
+      "keywords": ["Splunk (ES)", "Wireshark", "Metasploit", "Nmap", "Nessus", "Burp Suite", "Snort", "Tenable"]
+    },
+    {
+      "name": "Frameworks & Compliance",
+      "keywords": ["CIA Triad", "NIST CSF", "ISO 27001", "MITRE ATT&CK", "SOC 2", "CIS Benchmarks", "HIPAA"]
+    },
+    {
+      "name": "Digital Forensics & Legal",
+      "keywords": ["Chain of Custody", "Evidence Preservation", "Law Enforcement Liaison", "Legal Holds"]
+    },
+    {
+      "name": "Networking & Infrastructure",
+      "keywords": ["Cisco (ASA, Firepower, Meraki)", "VLANs", "TCP/IP", "VOIP (Dialpad)", "Active Directory", "Group Policy", "Virtualization"]
+    },
+    {
+      "name": "Cloud/OS",
+      "keywords": ["Microsoft 365", "AWS (IAM, Security Hub)", "Azure (Sentinel)", "Windows Server", "Dell Hyper-V", "PowerShell", "Bash", "Linux"]
+    },
+    {
+      "name": "Physical Security",
+      "keywords": ["Security Cameras (CCTV)", "Badge Access Systems", "Intrusion Detection Systems (IDS)", "Access Control"]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python (Scripting, Automation)", "SQL", "Electronic Medical Record (EMR) Platforms"]
+    }
+  ],
+  "work": [
+    {
+      "name": "Family Services of Chemung County",
+      "position": "Director of IT",
+      "location": "Elmira, NY",
+      "startDate": "2022-03",
+      "endDate": "2025-06",
+      "summary": "Directed IT and cybersecurity initiatives across multiple sites, leading infrastructure modernization and compliance programs.",
+      "highlights": [
+        "Directed a full network and security overhaul across five regional sites, improving network performance by 35% and establishing a standardized security baseline using CIS Benchmarks.",
+        "Spearheaded optimization of Microsoft 365 security suite, achieving a 30% increase in Microsoft Security Score and reducing cloud exposure risk.",
+        "Established and governed a formalized Vulnerability Management (VM) program using Nessus/Tenable, reducing overall attack surface exposure.",
+        "Developed and implemented log correlation and alerting pipelines in Splunk for continuous monitoring and threat detection.",
+        "Acted as a liaison for law enforcement, managing digital evidence and chain of custody for criminal investigations.",
+        "Ensured 100% HIPAA compliance through strict data encryption and control policies across all systems.",
+        "Authored and secured over $150,000 in grants for cybersecurity and infrastructure modernization projects.",
+        "Oversaw full IT asset lifecycle management, procurement, licensing, and vendor negotiations.",
+        "Provided IT consulting and strategic security guidance to partner agencies.",
+        "Led creation and enforcement of security policies and delivered security awareness training for 200+ staff, reducing human error risk."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Pennsylvania",
+      "area": "Cybersecurity Professional Boot Camp",
+      "studyType": "Certificate",
+      "endDate": "2021"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "CompTIA Security+",
+      "date": "2025"
+    },
+    {
+      "name": "Google Cybersecurity Specialization",
+      "date": "2025"
+    }
+  ]
+}
